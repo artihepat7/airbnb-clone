@@ -5,7 +5,7 @@
 }
 .header__icon {
   object-fit: contain;
-  height: 50px;
+  height: 90px;
   margin-left: 40px;
 }
 .header__center {
@@ -28,4 +28,29 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 40px;
+}
+
+@media (max-width: 678px) {
+  .header__icon {
+    object-fit: contain;
+    height: 90px;
+    margin-left: 5px;
+  }
+  .header__center {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    padding: 10px;
+    max-width: fit-content;
+    height: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 999px;
+  }
+  .header__right {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+  }
 }

@@ -1,0 +1,70 @@
+.search {
+  position: absolute;
+  left: 25%;
+  top: 35px;
+}
+
+.search > h2 {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 0;
+}
+.search > input {
+  margin: 0;
+  border: none;
+  padding: 10px;
+  width: 90%;
+}
+.search > input:focus {
+  outline-width: 0;
+}
+.search > button {
+  background-color: #ff7779;
+  color: white;
+  width: 100%;
+  text-transform: inherit;
+}
+.search > button:hover {
+  background-color: white;
+  color: #ff7779;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .search {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    overflow: scroll;
+    width: 100%;
+    z-index: 10;
+  }
+  .date_range_picker {
+    overflow: scroll;
+  }
+  .search > h2 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 0;
+    position: fixed;
+    width: 95%;
+    margin-right: 50px;
+  }
+  .search > input {
+    width: 90%;
+    top: 530px;
+    position: fixed;
+    margin-left: 5px;
+  }
+  .search > button {
+    width: 100%;
+    top: 560px;
+    position: fixed;
+  }
+} ;

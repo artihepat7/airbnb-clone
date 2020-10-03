@@ -1,0 +1,10 @@
+.home {
+  width: 100%;
+}
+.home__section {
+  display: flex;
+  padding: 30px;
+  flex-wrap: wrap;
+  align-items: centre;
+  justify-content: center;
+}
